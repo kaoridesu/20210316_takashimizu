@@ -1,0 +1,303 @@
+@charset "utf-8";
+
+/* リセットcss */
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/* その他のスタイルは以下に記述していきます */
+.header {
+  height: 150px;
+  background: #000;
+}
+
+.header-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-logo {
+  font-size: 70px;
+  font-weight: bold;
+  margin-left: 70px;
+  color: #f2f2f2;
+  line-height: 70px;
+  margin-top: 50px;
+}
+
+.header-nav ul{
+  display: flex;
+}
+
+.header-nav li {
+  margin-right: 70px;
+  font-size: 70px;
+  margin-top: 50px;
+}
+
+.header-nav a {
+  color: #f2f2f2;
+}
+
+#image {
+  height: 2009px;
+  background-image: url(../eyecatch.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+#image p{
+  font-size: 150px;
+  color: #cccccc;
+  font-weight:bold;
+  font-style: italic;
+  line-height: 1;
+  position: absolute;
+  top: 65%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+}
+
+
+.parent {
+  display: flex;
+}
+
+.child {
+  width: 1150px;
+  height: 200px;
+  background-color: floralwhite;
+  font-size: 40px;
+  color: dimgray;
+  font-weight:bold;
+  font-style: italic;
+  line-height: 1;
+  position: absolute;
+  top: 77%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+
+}
+ 
+
+
+.child2 {
+  width: 500px;
+  height: 200px;
+  background: black;
+  font-size: 60px;
+  color: #f2f2f2;
+  font-weight:bold;
+  font-style: italic;
+  line-height: 1;
+  position: absolute;
+  top: 77%;
+  left: 95%;
+  transform: translate(-50%, -50%);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+#explain {
+  height: 1500px;
+  background-color: black;
+  color: #cccccc;
+  position: relative;
+}
+
+.explain-left{
+  text-align: left;
+  align-items: flex-start;
+  position: absolute;
+  top: 600px;
+  left: 2400px;
+  transform: translate(-50%, -50%);
+}
+
+.explain-left h3  {
+  font-size: 100px;
+  font-weight: bold;
+  margin: 50px;
+}
+.explain-left p {
+  font-size: 50px;
+  font-weight: bold;
+  margin: 50px;
+}
+
+.link {
+  width: 200px;
+  height: 50px;
+  padding: 5px 20px;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: bold;
+  text-decoration: none; 
+  transition: 0.4s ease; 
+  background-color: white;
+  color: #000;
+  position: aabsolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+}
+
+
+  
+.explain-right{
+  width: cover;
+}
+
+.explain-wrap img{
+  width: 1900px;
+  height: 1200px;
+  position: absolute;
+  top: 75%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+}
+
+#service {
+  height: fit-content;
+  margin: 400px.0px;
+  background-color: dimgray;
+}
+
+#service .section-title {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 30px 0;
+  text-align: center;
+}
+
+#service .section-title {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 30px 0;
+  text-align: center;
+}
+
+.about-wrap{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.card {
+  width: 300px;
+  padding: 20px 12px 10px; /* 上20px 左右12px 下10px */
+  color: #333;
+  border: 1px solid #e9eaea; /* ボックスの周囲に線を引きます */
+  border-radius: 3px;
+  transition: 0.3s;
+}
+
+
+
+.text {
+  padding: 10px 0;
+  font-size: 14px;
+}
+
+.link {
+  display: block; /* aタグはinline要素なのでblock要素にしてwidthを持たせます */
+  text-align: center;
+  margin: 10px 0;
+  font-size: 14px;
+  color: #d7b071;
+}
