@@ -1,104 +1,175 @@
 @charset "utf-8";
 
 /* リセットcss */
-html, body, div, span, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-abbr, address, cite, code,
-del, dfn, em, img, ins, kbd, q, samp,
-small, strong, sub, sup, var,
-b, i,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section, summary,
-time, mark, audio, video {
-    margin:0;
-    padding:0;
-    border:0;
-    outline:0;
-    font-size:100%;
-    vertical-align:baseline;
-    background:transparent;
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
 }
 
 body {
-    line-height:1;
+  line-height: 1;
 }
 
-article,aside,details,figcaption,figure,
-footer,header,hgroup,menu,nav,section {
-    display:block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
 }
 
 nav ul {
-    list-style:none;
+  list-style: none;
 }
 
-blockquote, q {
-    quotes:none;
+blockquote,
+q {
+  quotes: none;
 }
 
-blockquote:before, blockquote:after,
-q:before, q:after {
-    content:'';
-    content:none;
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
 }
 
 a {
-    margin:0;
-    padding:0;
-    font-size:100%;
-    vertical-align:baseline;
-    background:transparent;
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
 }
 
 /* change colours to suit your needs */
 ins {
-    background-color:#ff9;
-    color:#000;
-    text-decoration:none;
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
 }
 
 /* change colours to suit your needs */
 mark {
-    background-color:#ff9;
-    color:#000;
-    font-style:italic;
-    font-weight:bold;
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
 }
 
 del {
-    text-decoration: line-through;
+  text-decoration: line-through;
 }
 
-abbr[title], dfn[title] {
-    border-bottom:1px dotted;
-    cursor:help;
+abbr[title],
+dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
 }
 
 table {
-    border-collapse:collapse;
-    border-spacing:0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 /* change border colour to suit your needs */
 hr {
-    display:block;
-    height:1px;
-    border:0;  
-    border-top:1px solid #cccccc;
-    margin:1em 0;
-    padding:0;
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0;
 }
 
-input, select {
-    vertical-align:middle;
+input,
+select {
+  vertical-align: middle;
 }
 
 /* その他のスタイルは以下に記述していきます */
 .header {
-  height: 150px;
+  height: 50px;
   background: #000;
 }
 
@@ -109,22 +180,22 @@ input, select {
 }
 
 .header-logo {
-  font-size: 70px;
+  font-size: 20x;
   font-weight: bold;
-  margin-left: 70px;
+  margin-left: 50px;
   color: #f2f2f2;
-  line-height: 70px;
-  margin-top: 50px;
+  line-height: 10px;
+  margin-top: 17px;
 }
 
-.header-nav ul{
+.header-nav ul {
   display: flex;
 }
 
 .header-nav li {
-  margin-right: 70px;
-  font-size: 70px;
-  margin-top: 50px;
+  margin-right: 10px;
+  font-size: 20px;
+  margin-top: 17px;
 }
 
 .header-nav a {
@@ -132,17 +203,17 @@ input, select {
 }
 
 #image {
-  height: 2009px;
+  height: 580px;
   background-image: url(../eyecatch.jpg);
   background-size: cover;
   background-position: center;
   position: relative;
 }
 
-#image p{
-  font-size: 150px;
+#image p {
+  font-size: 40px;
   color: #cccccc;
-  font-weight:bold;
+  font-weight: bold;
   font-style: italic;
   line-height: 1;
   position: absolute;
@@ -151,41 +222,37 @@ input, select {
   transform: translate(-50%, -50%);
 }
 
-
 .parent {
   display: flex;
 }
 
 .child {
-  width: 1150px;
-  height: 200px;
+  width: 483px;
+  height: 60px;
   background-color: floralwhite;
-  font-size: 40px;
+  font-size: 10px;
   color: dimgray;
-  font-weight:bold;
+  font-weight: bold;
   font-style: italic;
   line-height: 1;
   position: absolute;
-  top: 77%;
-  left: 80%;
+  top: 90%;
+  left: 72%;
   transform: translate(-50%, -50%);
-
 }
- 
-
 
 .child2 {
-  width: 500px;
-  height: 200px;
+  width: 160px;
+  height: 60px;
   background: black;
-  font-size: 60px;
+  font-size: 20px;
   color: #f2f2f2;
-  font-weight:bold;
+  font-weight: bold;
   font-style: italic;
   line-height: 1;
   position: absolute;
-  top: 77%;
-  left: 95%;
+  top: 90%;
+  left: 94%;
   transform: translate(-50%, -50%);
   justify-content: center;
   align-items: center;
@@ -193,69 +260,56 @@ input, select {
 }
 
 #explain {
-  height: 1500px;
-  background-color: black;
+  height: 400px;
+  background-color: #000;
   color: #cccccc;
   position: relative;
 }
 
-.explain-left{
-  text-align: left;
-  align-items: flex-start;
-  position: absolute;
-  top: 600px;
-  left: 2400px;
-  transform: translate(-50%, -50%);
-}
-
-.explain-left h3  {
-  font-size: 100px;
-  font-weight: bold;
-  margin: 50px;
-}
-.explain-left p {
-  font-size: 50px;
-  font-weight: bold;
-  margin: 50px;
-}
-
-.link {
-  width: 200px;
-  height: 50px;
-  padding: 5px 20px;
-  font-size: 25px;
-  font-style: normal;
-  font-weight: bold;
-  text-decoration: none; 
-  transition: 0.4s ease; 
-  background-color: white;
-  color: #000;
-  position: aabsolute;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 50px;
-}
-
-
-  
-.explain-right{
-  width: cover;
-}
-
-.explain-wrap img{
-  width: 1900px;
-  height: 1200px;
+.explain-right img {
+  width: 400px;
+  height: 300px;
   position: absolute;
   top: 75%;
   left: 70%;
   transform: translate(-50%, -50%);
 }
+.explain-left {
+  position: absolute;
+  top: 45%;
+  left: 47%;
+  transform: translate(-50%, -50%);
+}
+
+.explain-left h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 20px;
+}
+.explain-left p {
+  font-size: 12px;
+  font-weight: bold;
+  margin: 20px;
+}
+.explain-left a {
+  width: 100px;
+  height: 20px;
+  font-size: 6px;
+  text-decoration: none; /* テキストのスタイルを消す */
+  transition: 0.4s ease; /* スタイルが変化する時間 */
+  color: #000;
+  background-color: #fcf9f9;
+  margin: 20px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
 
 #service {
-  height: fit-content;
-  margin: 400px.0px;
-  background-color: dimgray;
+  height: 1000px;
+  margin: 150px.0px;
+  background-color: #cccccc;
+  position: relative;
 }
 
 #service .section-title {
@@ -265,39 +319,62 @@ input, select {
   text-align: center;
 }
 
-#service .section-title {
-  font-size: 30px;
-  font-weight: bold;
-  margin: 30px 0;
-  text-align: center;
-}
-
-.about-wrap{
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-}
-
-.card {
-  width: 300px;
+.service-lefttop .card {
+  width: 450px;
+  height: 200px;
   padding: 20px 12px 10px; /* 上20px 左右12px 下10px */
-  color: #333;
+  color: #000;
+  background-color: #fcf9f9;
   border: 1px solid #e9eaea; /* ボックスの周囲に線を引きます */
   border-radius: 3px;
   transition: 0.3s;
+  position: absolute;
+  top: 25%;
+  left: 44%;
+  transform: translate(-50%, -50%);
 }
 
-
-
-.text {
-  padding: 10px 0;
+.service-lefttop title {
+  font-size: 14px;
+  padding: 10px;
+}
+.service-lefttop text {
+  padding: 10px;
+  font-size: 14px;
+}
+.service-lefttop text {
+  padding: 10px;
   font-size: 14px;
 }
 
-.link {
-  display: block; /* aタグはinline要素なのでblock要素にしてwidthを持たせます */
-  text-align: center;
-  margin: 10px 0;
+.service-lefttop link {
+  width: 100px;
+  height: 25px;
   font-size: 14px;
-  color: #d7b071;
+  border: 1px solid #070707;
+  text-decoration: none;
+  color: #000;
+  background-color: #fcf9f9;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding: 0px 50px;
+}
+
+.service-righttop img {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 25%;
+  left: 44%;
+  transform: translate(-50%, -50%);
+}
+
+.service-rightbottom img {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 75%;
+  left: 44%;
+  transform: translate(-50%, -50%);
 }
