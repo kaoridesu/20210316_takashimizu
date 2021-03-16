@@ -434,6 +434,7 @@ select {
   width: 1500px;
   height: 200px;
   color: #cccccc;
+  margin-bottom: 60px;
   
 
 }
@@ -452,6 +453,7 @@ select {
   justify-content: center;
   align-items: center;
   display: flex;
+  margin-bottom: 60px;
 
 }
 
@@ -485,7 +487,7 @@ select {
   width: 1000px;
   height: 90px;
   background-color: #000;
-  margin: 70px 70px 70px 175px;
+  margin:0 auto;
   color: #f2f2f2;
   font-weight: bold;
   position: relative;
@@ -517,6 +519,7 @@ select {
   height: 500px;
   text-align: center;
   color: #fff;
+  margin-top: 60px;
   
 }
 
