@@ -589,7 +589,7 @@ select {
 
 
 .copyright{
-  font-size: 12px;
+  font-size: 13px;
   position: absolute;
   top: 90%;
   left: 50%;
@@ -679,14 +679,140 @@ select {
     transform: translate(-50%, -50%);
   }
   
-  .explain-right {
+  .explain-right  {
     flex-wrap: wrap;
 
   }
 
-  .explain-right .img { 
-    width:80% ;
-    height: 60%;
+  .explain-right img { 
+    width:40% ;
+    height: 30%;
+    top: 100%;
+  }
+
+  .explain-left {
+    flex-wrap: wrap;
   }
   
+  .explain-left h3{
+    width: 100% ;
+    height: 200%;
+    font-size: 26px;
+  }
+
+  .explain-left p{
+    width: 100% ;
+    height: 70%;
+  }
+  
+  #service{
+    flex-wrap: wrap;
+    position: relative;
+  }
+
+  .service-rightbottom img{
+    width: 90% ;
+    height: 15%;
+    position: absolute;
+    top: 59%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+  }
+
+  .service-righttop img{
+    width: 90% ;
+    height: 15%;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+  }
+  .service-rightbottom .card{
+    width: 83% ;
+    height: 15%;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+  }
+  .service-lefttop .card{
+    width: 83% ;
+    height: 15%;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+  }
+  .service-lefttop .link{
+    
+    position: absolute;
+    top: 80%;
+    right: -10%;
+    transform: translate(-50%, -50%);
+   
+  }
+   .service-rightbottom .link{
+    
+    position: absolute;
+    top: 80%;
+    right: -10%;
+    transform: translate(-50%, -50%);
+   
+  }
+  
+  #company-wrap{
+    flex-wrap: wrap;
+  }
+
+  #company-wrap .company-cat {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 0%;
+  }
+  
+ 
+  #company-wrap .recruit-cat{
+    width: 180%;
+    margin-left: 0%;
+    
+  }
+
+  .question{
+ 
+    width: 100%;
+    margin-top: 16%;
+  }
+  .question .text{
+   left: 28%;
+  }
+  .contact .text2{
+    width: 90%;
+  
+
+  }
+  .contact .text3{
+    width: 90%;
+
+  }
+  
+  
+  .footer-logo{
+    width: 100%;
+    margin-left: 40%;
+  }
+  
+  .footer-nav {
+    display: none; /* デスクトップのナビを消す */
+  }
+  .copyright{
+    width: 100%;
+    font-size: 100%;
+    left: 53%;
+    
+  }
+
 }
