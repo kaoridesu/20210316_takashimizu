@@ -608,7 +608,7 @@ select {
     transition: 0.4s;
     width: 40px;
   }
-  }
+  
 
   #hamburger span {
     position: absolute;
@@ -679,13 +679,14 @@ select {
     transform: translate(-50%, -50%);
   }
   
-  .explain-right{
+  .explain-right {
     flex-wrap: wrap;
 
   }
 
   .explain-right .img { 
-    width:300% ;
+    width:80% ;
+    height: 60%;
 
   }
-  
+  }
