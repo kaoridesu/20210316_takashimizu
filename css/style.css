@@ -319,7 +319,7 @@ select {
   text-align: center;
 }
 
-.service-righttop img {
+.service-righttop .photo{
   width: 700px;
   height: 400px;
   position: absolute;
@@ -328,7 +328,7 @@ select {
   transform: translate(-50%, -50%);
 }
 
-.service-rightbottom img {
+.service-leftbottom .fire {
   width: 700px;
   height: 400px;
   position: absolute;
@@ -708,15 +708,22 @@ select {
     
   }
   
-  .style.css
-  .photo{
-    width: 85% ;
-    height: 15%;
-    top: 5%;
-    
+ 
+  .service-righttop .photo{
+    width: 80%;
+    height: 15%;    
   }
   
+  style.css
+  .photo{
+    right:60%; 
+  }
   
+  .service-leftbottom .fire{
+    width: 80%;
+    height: 15%;    
+  }
+
   style.css
   .service-rightbottom .fire{
     width:10% ;
