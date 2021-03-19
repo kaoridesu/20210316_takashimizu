@@ -565,14 +565,14 @@ select {
 
 .footer-wrap {
   display: flex;
-  justify-content: space-between;
+  
   align-items: center;
 }
 
 .footer-logo {
   font-size: 20x;
   font-weight: bold;
-  margin-left: 50px;
+  text-align: center;
   line-height: 10px;
   margin-top: 17px;
 }
@@ -710,36 +710,36 @@ select {
   
  
   .service-righttop .photo{
-    width: 80%;
-    height: 15%;    
+    width: 90%;
+    height: 15%; 
+    top: 17%; 
+    left: 50%;
+      
   }
   
-  style.css
-  .photo{
-    right:60%; 
-  }
   
   .service-leftbottom .fire{
-    width: 80%;
-    height: 15%;    
+    width: 90%;
+    height: 15%;
+    top: 60%;   
+    left: 50%;
   }
 
-  style.css
-  .service-rightbottom .fire{
-    width:10% ;
-    
-  }
+ 
   .service-lefttop .card{
-    width: 85% ;
+    width: 83% ;
     height: 15%;
-    top: 30%;
-    left: 48%;
+    top: 33%;
+    left: 50%;
+    
 
   }
   .service-rightbottom .card{
-    width: 75% ;
+    width: 83% ;
     height: 15%;
-    top: 76%;    
+    top: 76%;  
+    left:50% ;
+      
   }
   .service-lefttop .link{
     
@@ -793,10 +793,12 @@ select {
 
   }
   
-  
+  .footer{
+    flex-wrap: wrap;
+  }
   .footer-logo{
-  
-    text-align: center;
+  width: 80%;
+  text-align: center;
   
   }
   
@@ -804,8 +806,8 @@ select {
     display: none; 
   }
   .copyright{
-    position: absolute;
-    width:100%;
+   justify-content: flex-start;
+    
   }
 
 }
