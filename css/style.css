@@ -546,7 +546,7 @@ select {
   padding: 20px;
 }
 
-.contact .link {
+.contact .btn {
   border: 1px ; 
   border-color: #f2f2f2;
   font-size: 14px;
@@ -708,11 +708,19 @@ select {
     
   }
   
-  
-
-  .service-lefttop .image{
+  .style.css
+  .photo{
+    width: 85% ;
+    height: 15%;
+    top: 5%;
     
-
+  }
+  
+  
+  style.css
+  .service-rightbottom .fire{
+    width:10% ;
+    
   }
   .service-lefttop .card{
     width: 85% ;
@@ -720,14 +728,6 @@ select {
     top: 30%;
     left: 48%;
 
-  }
-  
-  .service-rightbottom img{
-    width: 85% ;
-    height: 15%;
-    top: 60%;
-  
-   
   }
   .service-rightbottom .card{
     width: 75% ;
@@ -797,8 +797,8 @@ select {
     display: none; 
   }
   .copyright{
-    text-align: center;
-    
+    position: absolute;
+    width:100%;
   }
 
 }
