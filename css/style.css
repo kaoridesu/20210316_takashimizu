@@ -369,7 +369,7 @@ select {
   font-size: 14px;
 }
 
-.service-lefttop .link {
+.service-lefttop .btn {
   width: 90px;
   height: 20px;
   font-size: 13px;
@@ -380,7 +380,7 @@ select {
   justify-content: center;
   align-items: center;
   display: flex;
-  margin: 0px 0px 0px 300px;
+  margin: 0px 0px 0px 200px;
 }
 .service-rightbottom .card {
   width: 450px;
@@ -410,7 +410,7 @@ select {
   font-size: 14px;
 }
 
-.service-rightbottom .link {
+.service-rightbottom .btn {
   width: 90px;
   height: 20px;
   font-size: 13px;
@@ -421,7 +421,7 @@ select {
   justify-content: center;
   align-items: center;
   display: flex;
-  margin: 0px 0px 0px 300px;
+  margin: 0px 0px 0px 200px;
 }
 
 #company-wrap {
@@ -599,16 +599,15 @@ select {
 @media screen and (max-width: 768px){
   #hamburger {
     width: 40px;
-    height: 30px;
+    height: 40px;
     position: absolute;
     cursor: pointer;
     z-index: 100;
-    top: 15px;
+    top: 10px;
     right: 20px;
     transition: 0.4s;
     width: 40px;
   }
-  
 
   #hamburger span {
     position: absolute;
@@ -635,7 +634,6 @@ select {
   .header-nav {
     display: none; /* デスクトップのナビを消す */
   }
-
   #image{
     flex-wrap: wrap;
   }
@@ -707,45 +705,34 @@ select {
   
   #service{
     flex-wrap: wrap;
-    position: relative;
+    
   }
+  
+  
 
-  .service-rightbottom img{
-    width: 90% ;
-    height: 15%;
-    position: absolute;
-    top: 59%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-
-  }
-
-  .service-righttop img{
-    width: 90% ;
-    height: 15%;
-    position: absolute;
-    top: 15%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-
-  }
-  .service-rightbottom .card{
-    width: 83% ;
-    height: 15%;
-    position: absolute;
-    top: 75%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  .service-lefttop .image{
+    
 
   }
   .service-lefttop .card{
-    width: 83% ;
+    width: 85% ;
     height: 15%;
-    position: absolute;
     top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    left: 48%;
 
+  }
+  
+  .service-rightbottom img{
+    width: 85% ;
+    height: 15%;
+    top: 60%;
+  
+   
+  }
+  .service-rightbottom .card{
+    width: 75% ;
+    height: 15%;
+    top: 76%;    
   }
   .service-lefttop .link{
     
@@ -801,17 +788,16 @@ select {
   
   
   .footer-logo{
-    width: 100%;
-    margin-left: 40%;
+  
+    text-align: center;
+  
   }
   
   .footer-nav {
-    display: none; /* デスクトップのナビを消す */
+    display: none; 
   }
   .copyright{
-    width: 100%;
-    font-size: 100%;
-    left: 53%;
+    text-align: center;
     
   }
 
