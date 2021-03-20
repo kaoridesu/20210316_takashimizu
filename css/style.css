@@ -212,7 +212,7 @@ select {
 
 #image p {
   font-size: 60px;
-  color: #cccccc;
+  color: #f2f2f2;
   font-weight: bold;
   font-style: italic;
   line-height: 1;
@@ -262,7 +262,7 @@ select {
 #explain {
   height: 400px;
   background-color: #000;
-  color: #cccccc;
+  color: #f2f2f2;
   position: relative;
 }
 
@@ -700,28 +700,41 @@ select {
   
   .explain-left h3{
     width: 100% ;
-    height: 100%;
+    height: auto;
     font-size: 30px;
     left: 50%;
-    
+    line-height: 120%;
   }
 
   .explain-left p{
     width: 100% ;
-    height: 100%;
+    height: auto;
     font-size: 16px;
+    line-height: 110% ;
+
+  }
+  .explain-left .btn{
+    width: 60%;
+    padding: 3%;
+    font-size: 15px;
+    
   }
   
   #service{
     flex-wrap: wrap;
+  
     
   }
   
+  #service .section-title{
+    font-size: 50px;
+    padding-top: 10%;
+  }
  
   .service-righttop .photo{
     width: 88%;
-    height: 15%; 
-    top: 17%; 
+    height: auto; 
+    top: 18%; 
     left: 50%;
       
   }
@@ -729,42 +742,39 @@ select {
   
   .service-leftbottom .fire{
     width: 88%;
-    height: 15%;
-    top: 60%;   
+    height: auto;
+    top: 59%;   
     left: 50%;
   }
 
  
   .service-lefttop .card{
-    width: 83% ;
-    height: 15%;
-    top: 33%;
+    width: 82% ;
+    height: auto;
+    top: 34%;
     left: 50%;
     
 
   }
   .service-rightbottom .card{
-    width: 83% ;
-    height: 15%;
-    top: 76%;  
+    width: 82% ;
+    height: auto;
+    top: 73%;  
     left:50% ;
       
   }
-  .service-lefttop .link{
+  .service-lefttop .btn{
+    padding: 2%;
+    width: 30%;
+
     
-    position: absolute;
-    top: 80%;
-    right: -10%;
-    transform: translate(-50%, -50%);
    
   }
-   .service-rightbottom .link{
+   .service-rightbottom .btn{
+    padding: 2%;
+    width: 30%;
+
     
-    position: absolute;
-    top: 80%;
-    right: -10%;
-    transform: translate(-50%, -50%);
-   
   }
   
   #company-wrap{
@@ -799,7 +809,13 @@ select {
   }
   .contact .text3{
     width: 90%;
+    margin-bottom: 8%;
 
+  }
+
+  .contact .btn{
+    padding: 2%;
+    
   }
   
   
@@ -808,8 +824,6 @@ select {
   padding: 5%;
   margin: 0 auto;
   max-width: 500px;
-  
-  
   
   }
   
