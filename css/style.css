@@ -461,6 +461,7 @@ select {
 .recruit-cat{
   background: url(../recruit.jpg)no-repeat;
   margin-left: 60px;
+  background-size: cover;
   width: 1500px;
   height: 200px;
   color: #cccccc;
@@ -737,7 +738,7 @@ select {
   .service-righttop .photo{
     width: 88%;
     height: auto; 
-    top: 18%; 
+    top: 19%; 
     left: 50%;
       
   }
@@ -746,7 +747,7 @@ select {
   .service-leftbottom .fire{
     width: 88%;
     height: auto;
-    top: 59%;   
+    top: 60%;   
     left: 50%;
   }
 
@@ -754,7 +755,7 @@ select {
   .service-lefttop .card{
     width: 82% ;
     height: auto;
-    top: 35%;
+    top: 34%;
     left: 50%;
     
 
