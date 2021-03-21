@@ -306,125 +306,47 @@ select {
   display: flex;
 }
 
-#service {
-  height: 1500px;
-  margin: 150px.0px;
-  background-color: #cccccc;
+.service {
+  background: #e5e5e5;
+  margin-bottom: 10%;
   position: relative;
 }
 
-#service .section-title {
-  font-size: 30px;
-  font-weight: bold;
-  margin: 30px 0;
+.service-title {
   text-align: center;
+  padding: 20px 0;
 }
 
-.service-righttop .photo{
-  width: 700px;
-  height: 400px;
+.service-content .service-img {
+  width: 50px;
+  height: 1px;
+  margin-left: 50%;
+  
+}
+
+.service-content .service-img2 {
+  width: 50px;
+  height: 50px;
+}
+
+.service-content .inner {
   position: absolute;
-  top: 25%;
-  left: 74%;
-  transform: translate(-50%, -50%);
+  top: 15%;
+  left: 20%;
+  background: #fff;
+  width: 40%;
+  padding: 5% 5%;
+  box-sizing: border-box;
 }
 
-.service-leftbottom .fire {
-  width: 700px;
-  height: 400px;
-  position: absolute;
-  top: 70%;
-  left: 22%;
-  transform: translate(-50%, -50%);
+.service-content .inner2 {
+  left: 40%;
 }
 
-.service-righttop {
-  font-weight: bold;
+.service-btn {
+  border: 1px solid #000;
+  margin: 0 0 0 auto;
 }
-
-.service-lefttop .card {
-  width: 450px;
-  height: 200px;
-  padding: 20px 12px 10px; /* 上20px 左右12px 下10px */
-  color: #000;
-  background-color: #fcf9f9;
-  border: 1px solid #e9eaea; /* ボックスの周囲に線を引きます */
-  border-radius: 3px;
-  transition: 0.3s;
-  position: absolute;
-  top: 25%;
-  left: 44%;
-  transform: translate(-50%, -50%);
-}
-
-.service-lefttop .title {
-  font-size: 14px;
-  padding: 10px;
-}
-.service-lefttop .text {
-  padding: 10px;
-  font-size: 14px;
-}
-.service-lefttop .text2 {
-  padding: 10px;
-  font-size: 14px;
-}
-
-.service-lefttop .btn {
-  width: 90px;
-  height: 20px;
-  font-size: 13px;
-  border: 1px solid #070707;
-  text-decoration: none;
-  color: #000;
-  background-color: #fcf9f9;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  margin: 0px 0px 0px 200px;
-}
-.service-rightbottom .card {
-  width: 450px;
-  height: 200px;
-  padding: 20px 12px 10px; /* 上20px 左右12px 下10px */
-  color: #000;
-  background-color: #fcf9f9;
-  border: 1px solid #e9eaea; /* ボックスの周囲に線を引きます */
-  border-radius: 3px;
-  transition: 0.3s;
-  position: absolute;
-  top: 70%;
-  left: 52%;
-  transform: translate(-50%, -50%);
-}
-
-.service-rightbottom .title {
-  font-size: 14px;
-  padding: 10px;
-}
-.service-rightbottom .text {
-  padding: 10px;
-  font-size: 14px;
-}
-.service-rightbottom .text2 {
-  padding: 10px;
-  font-size: 14px;
-}
-
-.service-rightbottom .btn {
-  width: 90px;
-  height: 20px;
-  font-size: 13px;
-  border: 1px solid #070707;
-  text-decoration: none;
-  color: #000;
-  background-color: #fcf9f9;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  margin: 0px 0px 0px 200px;
-}
-
 #company-wrap {
   display: flex;
   font-weight: bold; 
