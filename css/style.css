@@ -200,6 +200,7 @@ select {
 
 .header-nav a {
   color: #f2f2f2;
+  text-decoration: none;
 }
 
 #image {
@@ -550,6 +551,7 @@ select {
   border: 1px ; 
   border-color: #f2f2f2;
   font-size: 14px;
+  padding: 1%;
   border: 1px solid #ffffff;
   text-decoration: none;
   color: #f2f2f2;
@@ -564,7 +566,7 @@ select {
 }
 
 .footer-wrap {
-
+  display: flex;
   align-items: center;
 }
 
@@ -573,6 +575,7 @@ select {
   font-weight: bold;
   text-align: center;
   line-height: 10px;
+  margin-right: auto;
  
 }
 
@@ -751,7 +754,7 @@ select {
   .service-lefttop .card{
     width: 82% ;
     height: auto;
-    top: 34%;
+    top: 35%;
     left: 50%;
     
 
@@ -759,7 +762,7 @@ select {
   .service-rightbottom .card{
     width: 82% ;
     height: auto;
-    top: 73%;  
+    top: 74%;  
     left:50% ;
       
   }
