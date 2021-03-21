@@ -307,12 +307,14 @@ select {
 }
 
 .service {
+  height: 1200px;
   background: #e5e5e5;
-  margin-bottom: 10%;
+  margin: 100px 0px;
 }
 
 .service-title {
   text-align: center;
+  font-size: 30px;
   padding: 20px 0;
 }
 
@@ -321,36 +323,49 @@ select {
   padding-bottom: 15%;
 }
 
-.service-img {
-  width: 1px;
-  height: 1px;
-  
+.service-img{
+  position: absolute;
+  top: 20%;
+  left: 50%;
 }
 
-.service-img_second {
-  width: 1px;
-  height: 1px;
-  margin: 0 50% 0 0;
-  margin-left: 50%;
-}
+.service-img_second{
+  position: absolute;
+  top: 200%;
+  left: 0%;
 
+}
 .service-content_inner {
   background: #fff;
   width: 40%;
   padding: 5% 5%;
   box-sizing: border-box;
+  position: absolute;
+  top: 70%;
+  left: 25%;
 }
 
 .service-content_inner-second {
   background: #fff;
   width: 40%;
-  padding: 5% 5%;
+  padding: 5% ;
   box-sizing: border-box;
+  position: absolute;
+  top: 240%;
+  left: 40%;
 }
 
-.service-btn {
+.service-content .service-btn {
   border: 1px solid #000;
   margin: 0 0 0 auto;
+  color:black;
+  background-color: white;
+  text-decoration: none;
+  padding: 2%;
+  position: absolute;
+  top: 70%;
+  left: 70%;
+  
 }
 #company-wrap {
   display: flex;
@@ -662,50 +677,8 @@ select {
     padding-top: 10%;
   }
  
-  .service-righttop .photo{
-    width: 88%;
-    height: auto; 
-    top: 19%; 
-    left: 50%;
-      
-  }
-  
-  
-  .service-leftbottom .fire{
-    width: 88%;
-    height: auto;
-    top: 60%;   
-    left: 50%;
-  }
-
- 
-  .service-lefttop .card{
-    width: 82% ;
-    height: auto;
-    top: 34%;
-    left: 50%;
-    
-
-  }
-  .service-rightbottom .card{
-    width: 82% ;
-    height: auto;
-    top: 74%;  
-    left:50% ;
-      
-  }
-  .service-lefttop .btn{
-    padding: 2%;
-    width: 30%;
-
-    
-   
-  }
-   .service-rightbottom .btn{
-    padding: 2%;
-    width: 30%;
-
-    
+  .service-content{
+    width: 80%;
   }
   
   #company-wrap{
