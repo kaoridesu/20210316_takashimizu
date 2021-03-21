@@ -309,7 +309,6 @@ select {
 .service {
   background: #e5e5e5;
   margin-bottom: 10%;
-  position: relative;
 }
 
 .service-title {
@@ -317,30 +316,36 @@ select {
   padding: 20px 0;
 }
 
-.service-content .service-img {
-  width: 50px;
-  height: 1px;
-  margin-left: 50%;
-  
+.service-content {
+  position: relative;
+  padding-bottom: 15%;
 }
 
-.service-content .service-img2 {
+.service-img {
   width: 50px;
   height: 50px;
+  margin-left: 50%;
 }
 
-.service-content .inner {
-  position: absolute;
-  top: 15%;
-  left: 20%;
+.service-img_second {
+  width: 50px;
+  height: 50px;
+  margin: 0 50% 0 0;
+  margin-left: 50%;
+}
+
+.service-content_inner {
   background: #fff;
   width: 40%;
   padding: 5% 5%;
   box-sizing: border-box;
 }
 
-.service-content .inner2 {
-  left: 40%;
+.service-content_inner-second {
+  background: #fff;
+  width: 40%;
+  padding: 5% 5%;
+  box-sizing: border-box;
 }
 
 .service-btn {
