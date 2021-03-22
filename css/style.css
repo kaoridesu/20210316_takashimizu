@@ -323,16 +323,15 @@ select {
   padding-bottom: 15%;
 }
 
-.service-img{
+.service-img {
   position: absolute;
   top: 20%;
   left: 50%;
 }
 
-.service-img_second{
+.service-img_second {
   position: absolute;
   top: 280%;
-
 }
 .service-content_inner {
   font-size: 20px;
@@ -345,7 +344,7 @@ select {
   top: 50%;
   left: 25%;
 }
-.service-content_inner .mgb-15{
+.service-content_inner .mgb-15 {
   padding: 2%;
 }
 
@@ -354,56 +353,52 @@ select {
   background: #fff;
   width: 40%;
   height: 40%;
-  padding: 2% ;
+  padding: 2%;
   box-sizing: border-box;
   position: absolute;
   top: 288%;
   left: 40%;
 }
-.service-content_inner-second .mgb-15{
+.service-content_inner-second .mgb-15 {
   padding: 2%;
 }
 
 .service-content .service-btn {
   border: 1px solid #000;
   margin: 0 0 0 auto;
-  color:black;
+  color: black;
   background-color: white;
   text-decoration: none;
   padding: 2%;
   position: absolute;
   top: 80%;
   left: 70%;
-  
 }
 .service-content2 .service-btn2 {
   border: 1px solid #000;
   margin: 0 0 0 auto;
-  color:black;
+  color: black;
   background-color: white;
   text-decoration: none;
   padding: 2%;
   position: absolute;
   top: 80%;
   left: 70%;
-  
 }
 #company-wrap {
   display: flex;
-  font-weight: bold; 
+  font-weight: bold;
 }
 
-.company-cat{
-  background: url(../company.jpeg)no-repeat;
+.company-cat {
+  background: url(../company.jpeg) no-repeat;
   width: 1500px;
   height: 200px;
   color: #cccccc;
   margin-bottom: 60px;
-  
-
 }
 
-.company-cat .title{
+.company-cat .title {
   font-size: 23px;
   padding: 10px;
   margin-top: 60px;
@@ -412,27 +407,25 @@ select {
   display: flex;
 }
 
-.company-cat .text{
+.company-cat .text {
   font-size: 15px;
   justify-content: center;
   align-items: center;
   display: flex;
   margin-bottom: 60px;
-
 }
 
-.recruit-cat{
-  background: url(../recruit.jpg)no-repeat;
+.recruit-cat {
+  background: url(../recruit.jpg) no-repeat;
   margin-left: 60px;
   background-size: cover;
   width: 1500px;
   height: 200px;
   color: #cccccc;
   font-weight: bold;
-
 }
 
-.recruit-cat .title{
+.recruit-cat .title {
   font-size: 23px;
   padding: 10px;
   margin-top: 60px;
@@ -441,25 +434,24 @@ select {
   display: flex;
 }
 
-.recruit-cat .text{
+.recruit-cat .text {
   font-size: 15px;
   justify-content: center;
   align-items: center;
   display: flex;
 }
 
-.question{
+.question {
   width: 1000px;
   height: 90px;
   background-color: #000;
-  margin:0 auto;
+  margin: 0 auto;
   color: #f2f2f2;
   font-weight: bold;
   position: relative;
-
 }
 
-.question h1{
+.question h1 {
   font-size: 30px;
   position: absolute;
   top: 50%;
@@ -467,59 +459,53 @@ select {
   transform: translate(-50%, -50%);
 }
 
-
-
-.question p{
+.question p {
   font-size: 15px;
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%); 
-
+  transform: translate(-50%, -50%);
 }
 
-.contact{
-  background: url(../contact-bg.jpg)no-repeat;
+.contact {
+  background: url(../contact-bg.jpg) no-repeat;
   background-size: cover;
   height: 500px;
   text-align: center;
   color: #fff;
   margin-top: 60px;
-  
 }
 
-.contact .title{
+.contact .title {
   font-size: 30px;
   font-weight: bold;
   padding-top: 100px;
-
 }
 
-.contact .text{
+.contact .text {
   font-size: 14px;
   font-weight: bold;
   padding: 10px;
 }
 
-.contact .text2{
+.contact .text2 {
   font-size: 40px;
   padding: 20px;
 }
-.contact .text3{
+.contact .text3 {
   font-size: 10px;
   font-weight: bold;
   padding: 20px;
 }
 
 .contact .btn {
-  border: 1px ; 
+  border: 1px;
   border-color: #f2f2f2;
   font-size: 14px;
   padding: 1%;
   border: 1px solid #ffffff;
   text-decoration: none;
   color: #f2f2f2;
-  
 }
 
 .footer {
@@ -540,7 +526,6 @@ select {
   text-align: center;
   line-height: 10px;
   margin-right: auto;
- 
 }
 
 .footer-nav ul {
@@ -560,8 +545,7 @@ select {
   text-decoration: none;
 }
 
-
-.copyright{
+.copyright {
   font-size: 13px;
   position: absolute;
   top: 90%;
@@ -569,7 +553,7 @@ select {
   transform: translate(-50%, -50%);
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
   #hamburger {
     width: 40px;
     height: 40px;
@@ -607,57 +591,49 @@ select {
   .header-nav {
     display: none; /* デスクトップのナビを消す */
   }
-  #image{
+  #image {
     flex-wrap: wrap;
     width: cover;
   }
 
-
-  #image p  {
+  #image p {
     width: 80%;
     margin: 0 auto;
     max-width: 500px;
     left: 50%;
     top: 50%;
     text-align: center;
- 
   }
 
-  .image .parent{
+  .image .parent {
     position: absolute;
     bottom: 0%;
     right: 0%;
     left: 0%;
   }
 
-  .parent{
+  .parent {
     flex-wrap: wrap;
-   
   }
-  
 
-  .parent .child{
+  .parent .child {
     width: 70%;
     top: 72%;
     left: 35%;
-    
-   
   }
- 
-  .parent .child2{
+
+  .parent .child2 {
     width: 30%;
     top: 72%;
     left: 85%;
-    
   }
-  
-  .explain-right  {
+
+  .explain-right {
     flex-wrap: wrap;
-
   }
 
-  .explain-right img { 
-    width:40% ;
+  .explain-right img {
+    width: 40%;
     height: 30%;
     top: 100%;
   }
@@ -665,49 +641,48 @@ select {
   .explain-left {
     flex-wrap: wrap;
   }
-  
-  .explain-left h3{
-    width: 100% ;
+
+  .explain-left h3 {
+    width: 100%;
     height: auto;
     font-size: 30px;
     left: 50%;
     line-height: 120%;
   }
 
-  .explain-left p{
-    width: 100% ;
+  .explain-left p {
+    width: 100%;
     height: auto;
     font-size: 16px;
-    line-height: 110% ;
-
+    line-height: 110%;
   }
-  .explain-left .btn{
+  .explain-left .btn {
     width: 60%;
     padding: 3%;
     font-size: 15px;
-    
   }
-  
-  .service{
+
+  .service {
     flex-wrap: wrap;
     width: auto;
     height: 1000%;
     padding-bottom: 20%;
-    
   }
-  
-  .service .section-title{
+
+  .service .section-title {
     font-size: 50px;
     padding-top: 10%;
   }
- 
-  .service-img{
+  
+
+  .service-img {
     width: 90%;
     height: 90%;
     position: static;
     margin: 0 auto;
+    text-align: center;
   }
-  .service-content_inner{
+  .service-content_inner {
     width: 90%;
     font-size: 10px;
     height: auto;
@@ -715,12 +690,15 @@ select {
     margin: 0 auto;
     padding: 5%;
   }
-  .service-img_second{
-    width: 180%;
+
+
+  .service-img_second {
+    width: 90%;
     height: auto;
     position: static;
+    text-align: center;
     margin-left: 5%;
-    
+  
   }
   .service-content_inner-second {
     width: 90%;
@@ -729,21 +707,18 @@ select {
     position: static;
     margin: 0 auto;
     padding: 5%;
-    
   }
-  
+
   .service-content .service-btn {
     margin-left: 60%;
     position: static;
-    
   }
   .service-content2 .service-btn2 {
     margin-left: 60%;
     position: static;
-    
   }
 
-  #company-wrap{
+  #company-wrap {
     flex-wrap: wrap;
   }
 
@@ -752,53 +727,43 @@ select {
     height: 100%;
     margin-bottom: 0%;
   }
-  
- 
-  #company-wrap .recruit-cat{
+
+  #company-wrap .recruit-cat {
     width: 180%;
     margin-left: 0%;
-    
   }
 
-  .question{
- 
+  .question {
     width: 100%;
     margin-top: 16%;
   }
-  .question .text{
-   left: 28%;
+  .question .text {
+    left: 28%;
   }
-  .contact .text2{
+  .contact .text2 {
     width: 90%;
-  
-
   }
-  .contact .text3{
+  .contact .text3 {
     width: 90%;
     margin-bottom: 8%;
-
   }
 
-  .contact .btn{
+  .contact .btn {
     padding: 2%;
-    
-  }
-  
-  
-  .footer-logo{
-  width: 80%;
-  padding: 5%;
-  margin: 0 auto;
-  max-width: 500px;
-  
-  }
-  
-  .footer-nav {
-    display: none; 
-  }
-  .copyright{
-  white-space: nowrap;
-  text-align: center
   }
 
+  .footer-logo {
+    width: 80%;
+    padding: 5%;
+    margin: 0 auto;
+    max-width: 500px;
+  }
+
+  .footer-nav {
+    display: none;
+  }
+  .copyright {
+    white-space: nowrap;
+    text-align: center;
+  }
 }
