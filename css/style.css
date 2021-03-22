@@ -350,7 +350,7 @@ select {
 }
 
 .service-content_inner-second {
-  font-size: 20px;
+  font-size: 15px;
   background: #fff;
   width: 40%;
   height: 40%;
@@ -609,17 +609,15 @@ select {
   }
   #image{
     flex-wrap: wrap;
+    width: cover;
   }
 
-  #image  {
-    width: cover;
-    position: relative;
-  }
+  
    #image p{
     flex-wrap: wrap;
   }
 
-  #image p {
+  #image p  {
     width: 64%;
     height: 60%;
     left: 50%;
@@ -627,27 +625,32 @@ select {
     
   }
 
+  .image.parent{
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+    left: 0%;
+  }
+
   .parent{
     flex-wrap: wrap;
-  
+   
   }
   
 
   .parent .child{
-    width: 72%;
-    position: absolute;
-    top: 73%;
-    left: 36%;
-    transform: translate(-50%, -50%);
+    width: 70%;
+    top: 95%;
+    left: 35%;
+    
    
   }
  
   .parent .child2{
-    width: 27%;
-    position: absolute;
-    top: 73%;
-    left: 86%;
-    transform: translate(-50%, -50%);
+    width: 30%;
+    top: 95%;
+    left: 85%;
+    
   }
   
   .explain-right  {
@@ -689,6 +692,8 @@ select {
   
   .service{
     flex-wrap: wrap;
+    
+    
   
     
   }
@@ -706,22 +711,27 @@ select {
   }
   .service-content_inner{
     width: 90%;
+    font-size: 10px;
     height: auto;
     position: static;
     margin: 0 auto;
+    padding: 5%;
   }
   .service-img_second{
     width: 180%;
     height: auto;
     position: static;
     margin-left: 5%;
-
+    
   }
   .service-content_inner-second {
     width: 90%;
+    font-size: 10px;
     height: auto;
     position: static;
     margin: 0 auto;
+    padding: 5%;
+    
   }
   
   .service-content .service-btn {
