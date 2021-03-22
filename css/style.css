@@ -689,15 +689,17 @@ select {
     position: static;
     margin: 0 auto;
     padding: 5%;
+
   }
 
 
   .service-img_second {
-    width: 90%;
+    width: 100%;
     height: auto;
     position: static;
     text-align: center;
-    margin-left: 5%;
+
+    
   
   }
   .service-content_inner-second {
