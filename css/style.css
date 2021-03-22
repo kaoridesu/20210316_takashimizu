@@ -617,6 +617,9 @@ select {
     width: 80%;
     margin: 0 auto;
     max-width: 500px;
+    left: 50%;
+    top: 50%;
+    text-align: center;
  
   }
 
@@ -687,7 +690,9 @@ select {
   
   .service{
     flex-wrap: wrap;
-
+    width: auto;
+    height: 1000%;
+    padding-bottom: 20%;
     
   }
   
