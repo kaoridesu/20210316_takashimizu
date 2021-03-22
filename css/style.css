@@ -612,20 +612,15 @@ select {
     width: cover;
   }
 
-  
-   #image p{
-    flex-wrap: wrap;
-  }
 
   #image p  {
-    width: 64%;
-    height: 60%;
-    left: 50%;
-    justify-content: center;
-    
+    width: 80%;
+    margin: 0 auto;
+    max-width: 500px;
+ 
   }
 
-  .image.parent{
+  .image .parent{
     position: absolute;
     bottom: 0%;
     right: 0%;
@@ -640,7 +635,7 @@ select {
 
   .parent .child{
     width: 70%;
-    top: 95%;
+    top: 72%;
     left: 35%;
     
    
@@ -648,7 +643,7 @@ select {
  
   .parent .child2{
     width: 30%;
-    top: 95%;
+    top: 72%;
     left: 85%;
     
   }
@@ -692,9 +687,7 @@ select {
   
   .service{
     flex-wrap: wrap;
-    
-    
-  
+
     
   }
   
