@@ -228,7 +228,7 @@ select {
 }
 
 .child {
-  width: 483px;
+  width: 380px;
   height: 60px;
   background-color: floralwhite;
   font-size: 10px;
@@ -237,7 +237,7 @@ select {
   font-style: italic;
   line-height: 1;
   position: absolute;
-  top: 90%;
+  top: 102%;
   left: 72%;
   transform: translate(-50%, -50%);
 }
@@ -252,7 +252,7 @@ select {
   font-style: italic;
   line-height: 1;
   position: absolute;
-  top: 90%;
+  top: 102%;
   left: 94%;
   transform: translate(-50%, -50%);
   justify-content: center;
@@ -619,18 +619,22 @@ select {
 
   .parent {
     flex-wrap: wrap;
+    position: static;
+    transition: unset;
   }
 
   .parent .child {
     width: 70%;
-    top: 72%;
+    top: 101%;
     left: 35%;
+    
   }
 
   .parent .child2 {
     width: 30%;
-    top: 72%;
+    top: 101%;
     left: 85%;
+
   }
 
   .explain-right {
