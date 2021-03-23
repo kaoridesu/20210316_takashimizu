@@ -620,13 +620,15 @@ select {
   .parent {
     flex-wrap: wrap;
     position: static;
-    transition: unset;
+    transform: none;
   }
 
   .parent .child {
     width: 70%;
     top: 101%;
     left: 35%;
+    position: static;
+    transform: none;
     
   }
 
@@ -634,6 +636,8 @@ select {
     width: 30%;
     top: 101%;
     left: 85%;
+    position: static;
+    transform: none;
 
   }
 
